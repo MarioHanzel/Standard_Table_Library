@@ -1,4 +1,4 @@
-#The C++ Standard Template Library (STL) 
+# The C++ Standard Template Library (STL) 
 
 
 Hello everyone, welcome to my blog. Here, I will be explaining and showing you about the use of several STL features.
@@ -6,7 +6,7 @@ Hello everyone, welcome to my blog. Here, I will be explaining and showing you a
 The Standard Template Library is a set of C++ template classes which provides many useful programming data structures and functions, making coding easier.
 
 
-##iterators
+## iterators
 
 Firstly, let's start off with iterators. Well, what exactly is it? An iterator is an object that points to element in data structure. 
 Iterators can be categorised into:
