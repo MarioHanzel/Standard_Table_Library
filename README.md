@@ -7,8 +7,10 @@ Hello everyone. In this blog, I will be explaining to you about the use of sever
 The Standard Template Library is a set of C++ template classes which provides many useful programming data structures and functions, making coding easier.
 STL is especially useful when it comes to competitive programming (e.g. IOI) and there is definitely highly important to learn about STL  to solve questions in competitive programming.
 
+
 ## Containers
 Firstly, let's start by introducing container. They are used to store objects and data.
+
 
 #### 1. vectors
 A vector is a stack with the functionality of an array which can resize itself after inserting and removing elements from this container.
@@ -39,6 +41,8 @@ v.insert(v.begin(), 5);   // v = {5,0,1,2,3,4,5,6,7,8,9}
 v.erase(v.begin());   // v = {0,1,2,3,4,5,6,7,8,9};
 v.erase(0,4);   // v = {4,5,6,7,8,9};
 ```
+
+
 #### 2. stack
 First-In-Last-Out data structure. Elements that are added first will be removed last. 
 ```c++
@@ -54,6 +58,8 @@ Here are some essential functions to use for stack:
 
 **.size()** 
 [click here to view my example codes of stack](https://github.com/MarioHanzel/Standard_Table_Library/blob/master/stack.cpp)
+
+
 
 #### 3. queue
 It is a First-In-First-Out data structure. As its name suggests, the container works just like a real life queue. Just imagine this scenario, a person who enters a queue first in front of the cashier gets to get out and purchase his goods first, the second person who enters the queue gets out the second, so on and so forth.
@@ -73,6 +79,8 @@ Some codes that are imperative to take note of:
 
 [click here to view my codes on queue](https://github.com/MarioHanzel/Standard_Table_Library/blob/master/queue.cpp)
 
+
+
 #### 4. deque
 Deque is a double-ended queue. It has the functionality of both a vector and queue. It is a special kind of queue as you can add and remove elements at the front and at the back of this container.
 
@@ -86,6 +94,7 @@ dq.push_front(11);  //adds 11 at the front of the container
 dq.pop_back();  //removes element at the back of the container
 dq.pop_front();  //removes element at the front of the container
 ```
+
 
 #### 5. list
 
