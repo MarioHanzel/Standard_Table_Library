@@ -124,13 +124,20 @@ Types of container that supports random access iterators: deque, vector, array
 
 
 Here are some of the operations of iterator. 
+
 **begin()** : This returns the starting position of the container.
+
 **end()** : This returns the position after the last element of the container.
 **++** : It is use to increase the iterator by one.
+
 **- -** : It is used to decrease the iterator by one.
+
 **=** : assigns the iterator.
+
 *: gives the value of the element in the position pointed by the iterator.
+
 **advance()** : increase the iterator until a specified value which is given as the second parameter in this function
+
 
 Below are the example codes for different operations :
 ```c++
