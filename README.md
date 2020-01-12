@@ -17,10 +17,15 @@ vector<int> v;
 ```
 
 Here are some essential functions to use for vectors:
+
 **.push_back()** : add element to the back of the vector
+
 **.pop_back()** : remove element at the back of the vector
+
 **.insert()** : add an element at a specified position
+
 **.erase()** : add an element at a specified position or range
+
 **.size()**
 ```c++
 #include <bits/stdc++.h>
@@ -40,9 +45,13 @@ First-In-Last-Out data structure. Elements that are added first will be removed 
 stack<int> s;
 ```
 Here are some essential functions to use for stack:
+
 **.push()** : add element to the top of the stack
+
 **.pop()** : remove element at the top of the stack
+
 **.top()** : returns the top element
+
 **.size()** 
 [click here to view my example codes of stack](https://github.com/MarioHanzel/Standard_Table_Library/blob/master/stack.cpp)
 
@@ -53,9 +62,13 @@ It is a First-In-First-Out data structure. As its name suggests, the container w
 queue<int> q;
 ```
 Some codes that are imperative to take note of:
+
 .push() : add element at the front of the container
+
 .pop() : removes element at the front of the container
+
 .front() : returns the front element of the container
+
 .empty() : returns 0 if queue is not empty, otherwise, 1.
 
 [click here to view my codes on queue](https://github.com/MarioHanzel/Standard_Table_Library/blob/master/queue.cpp)
