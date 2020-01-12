@@ -56,7 +56,8 @@ Here are some essential functions to use for stack:
 
 **.top()** : returns the top element
 
-**.size()** 
+**.size()** : returns the size of the container, i.e. the number of elements in the stack
+
 [click here to view my example codes of stack](https://github.com/MarioHanzel/Standard_Table_Library/blob/master/stack.cpp)
 
 
