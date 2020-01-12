@@ -5,7 +5,7 @@ Hello everyone. In this blog, I will be explaining to you about the use of sever
 
 ## What is STL and its uses?
 The Standard Template Library is a set of C++ template classes which provides many useful programming data structures and functions, making coding easier.
-STL is especially useful when it comes to competitive programming (e.g. IOI) and there is a very high chance you always need to use c++ STL when solving questions.
+STL is especially useful when it comes to competitive programming (e.g. IOI) and there is definitely highly important to learn about STL  to solve questions in competitive programming.
 
 ## Containers
 Firstly, let's start by introducing container. They are used to store objects and data.
