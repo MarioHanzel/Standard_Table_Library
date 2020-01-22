@@ -251,4 +251,4 @@ advance(ptr, 4);
 cout << *ptr; // prints out 4
 
 ```
-```
+
